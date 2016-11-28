@@ -1,6 +1,0 @@
-with command 'git log' I can, from inside the directory where the project files are, see all the commits.
-After finding the one I case for, I should copy the  commit id of the one after, use command 'git diff' and past the commit id I was loking for 
-ex:
-git diff b0678b161fcf74467ed3a63110557e3d6229cfa6 b0558b161fcf74467ed3a63110557e3d6229cfa5
-
-
