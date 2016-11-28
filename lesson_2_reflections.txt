@@ -4,3 +4,10 @@ This tells git to create the infrastructure on the current folder to keep track 
 #2
 The files to keep track of must be added to the Staging Area. This is done with 'git add' followed by the name of the file. The staging area is a subgroup of both the directory and of the repository, wich contains the elements common to both. The usefulness of the staging area is the ability to have a project organized in one folder, but still be able to select which files are worth keep tracking of. The repository will only contain staged files.
 #3
+The staging area is not fixed. The files there must be added after changes are made to them. Say several files are staged and committed. Afetr committing, the stage becomes clean. The stage is now ready for another task.
+ + 1st Stage files involved,
+ + 2nd make changes to each file,
+ + 3rd committ all teh files (in one committ only, so that it represents a logical step)
+ + 'git diff' - compares the working directory to the staging area
+ + 'git diff --stage' - compares the staging area to the most recent commit in the repository
+ + 'git --hard' - discards changes on working directory and in staging area (irreversible, data had not been committed, so there is no way to get it back).
