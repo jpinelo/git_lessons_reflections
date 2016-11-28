@@ -1,0 +1,2 @@
+
+Manual Commits make sense because they can tag logically independent changes.

@@ -1,0 +1,2 @@
+Having access to the entire history of a file makes it possible to trace back the sequence of changes.
+Timestamps on the record of changes allows for checking the evolution of several files.

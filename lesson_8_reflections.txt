@@ -1,0 +1,3 @@
+'git init' initiates a repository.
+This tells git to create the infrastructure on the current folder to keep track of changes. This does not tell git which of the files we want to track changes of. That must be done afterwards, explicitly.
+'git status' shows the status of the current repository.

@@ -1,0 +1,3 @@
+version control makes it easy to go back to a commit where things were working, and work forward to find the bug that causes an undesired effect.
+It is then a matter of checking out the latest commit and just fix the cause for error.
+I guess that another option would be to restart from that point by creating a new branch?

@@ -1,0 +1,2 @@
+Automatically highlight differences between files is extremely useful to spot changes between newer and older versions of the same file.
+Differences are particularly useful to spot unintentinal changes.
