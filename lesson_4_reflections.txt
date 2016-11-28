@@ -1,1 +1,0 @@
-Muiltipme-file commits are hugely helpful becasue they create a version for all the files in a repository, simultaneously.
