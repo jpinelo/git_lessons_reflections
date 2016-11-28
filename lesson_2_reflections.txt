@@ -11,3 +11,11 @@ The staging area is not fixed. The files there must be added after changes are m
  + 'git diff' - compares the working directory to the staging area
  + 'git diff --stage' - compares the staging area to the most recent commit in the repository
  + 'git --hard' - discards changes on working directory and in staging area (irreversible, data had not been committed, so there is no way to get it back).
+ #4 Branches
+When a change that we are about to make is complementar to the project, but has its own identity and should remain separated. or if it is an experimental change that we might want to isolate of eve discard of later, we can create a branch.
+'git branch' - reports current branch
+'git branch x' - creates branch 'x'
+'git checkout x' - switches to branch x, making it the current branch
+#5
+It might be usful to draw a diagram to visualize comitts dependencies and understand the branching history of the repository.
+
