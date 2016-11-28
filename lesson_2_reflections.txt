@@ -1,2 +1,6 @@
-Having access to the entire history of a file makes it possible to trace back the sequence of changes.
-Timestamps on the record of changes allows for checking the evolution of several files.
+#1
+'git init' initiates a repository.
+This tells git to create the infrastructure on the current folder to keep track of changes. This does not tell git which of the files we want to track changes of. That must be done afterwards, explicitly.
+#2
+The files to keep track of must be added to the Staging Area. This is done with 'git add' followed by the name of the file. The staging area is a subgroup of both the directory and of the repository, wich contains the elements common to both. The usefulness of the staging area is the ability to have a project organized in one folder, but still be able to select which files are worth keep tracking of. The repository will only contain staged files.
+#3
